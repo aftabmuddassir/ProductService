@@ -17,7 +17,7 @@ import com.aftab.ProductService.dtos.FakeStoreResponseDto;
 import com.aftab.ProductService.exceptions.ProductNotFoundException;
 import com.aftab.ProductService.models.Product;
 
-@Service
+@Service("fakeStoreProductService")
 public class FakeStoreProductService implements ProductService {
     
     RestTemplate restTemplate;

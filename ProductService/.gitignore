@@ -31,3 +31,7 @@ build/
 
 ### VS Code ###
 .vscode/
+
+
+#add application.properties
+/ProductService/src/main/resources/application.properties

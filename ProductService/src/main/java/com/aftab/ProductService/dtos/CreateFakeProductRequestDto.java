@@ -29,7 +29,7 @@ public class CreateFakeProductRequestDto {
         this.category = category;
     }
 
-    public Product toProduct() {
+    public Product toProduct() {//do this ideally in service layer
         Product product = new Product();
         product.setName(this.title);
         product.setDescription(this.description);
